@@ -7,6 +7,7 @@ const sqlConn = require("./Config/DataBase");
 const SocketEvent = require("./Socket/Socket.js");
 const UserRoute = require("./Route/User.js");
 const GroupRoute = require("./Route/Group");
+const path = require("path");
 
 //BODY PARSER
 const bodyParser = require("body-parser");
