@@ -1,0 +1,73 @@
+.login {
+  margin: 14px 0px;
+  .heading {
+    text-align: center;
+    font-family: Nunito;
+  }
+}
+
+.hr-black {
+  border: 2px solid black;
+}
+
+///////////////// PROFILE ////////////////
+
+.profile {
+  @media (max-width: 576px) {
+    text-align: center;
+  }
+  position: relative;
+  margin-top: 20px;
+  .pr-img {
+    display: inline-block;
+    margin-right: 40px;
+
+    img {
+      display: inline-block;
+      margin: 0%;
+      width: 140px;
+      height: 140px;
+    }
+  }
+
+  .pf-header {
+    display: inline-block;
+    position: absolute;
+    @media (max-width: 576px) {
+      position: relative;
+    }
+    h1 {
+      display: inline-block;
+      font-family: Nunito;
+      text-transform: capitalize;
+      @media (max-width: 576px) {
+        font-size: 30px;
+        padding: 5px;
+      }
+    }
+    b {
+      display: block;
+      text-transform: capitalize;
+      font-family: Raleway;
+    }
+  }
+
+  //Group
+  .user-group {
+    text-align: center;
+    .ug-head {
+      h2 {
+        font-family: Nunito;
+      }
+    }
+    .ug-body {
+      text-align: left;
+    }
+  }
+}
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  margin-top: 5px;
+}
